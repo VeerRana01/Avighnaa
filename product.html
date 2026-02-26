@@ -21,22 +21,34 @@
 function getProduct(){
 
 let id = new URLSearchParams(window.location.search).get("id");
+
 let product = products.find(p => p.id == id);
 
 if(!product){
-document.getElementById("product-details").innerHTML = "<h2>Product not found</h2>";
+
+document.getElementById("product-details").innerHTML =
+"<h2>Product not found</h2>";
+
 return;
+
 }
 
 let imagesHTML = "";
+
 product.images.forEach(img=>{
+
 imagesHTML += `<img src="${img}" class="product-img">`;
+
 });
 
 let html = `
+
 <h2>${product.name}</h2>
+
 ${imagesHTML}
+
 <p>${product.description}</p>
+
 <h3>₹${product.price}</h3>
 
 <button onclick="addToCart(${product.id})">
@@ -48,16 +60,25 @@ Add to Cart
 <a href="https://wa.me/919468199567?text=I want to order ${product.name}">
 <button>Order on WhatsApp</button>
 </a>
+
 `;
 
 document.getElementById("product-details").innerHTML = html;
 
 }
 
+
+/* IMPORTANT FIX */
+
+loadProductsFromJSON(function(){
+
 getProduct();
 updateCartCount();
+
+});
 
 </script>
 
 </body>
 </html>
+
