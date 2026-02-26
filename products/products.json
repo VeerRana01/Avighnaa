@@ -14,29 +14,24 @@
     "images": ["p2-1.jpeg"]
   },
   {
-"id":3,
-"name":"Royal Jhumka Drop Earrings",
-"price":379,
-"images":["p3-1.jpeg","p3-2.jpeg"],
-"description": "Antique gold finish traditional jhumkas ,Perfect for weddings & festive wear.",
-},
-
-{
-"id":4,
-"name":"Celestial Clover Drops Earring",
-"price":159,
-"images":["p4-1.jpeg","p4-2.jpeg","p4-3.jpeg"],
-"description":"Premium gold-toned clover design,Lightweight and elegant."
-},
-
-{
-"id":5,
-"name":"Crystal Blue Earring",
-"price":200,
-"images":["p5-1.jpeg","p5-2.jpeg","p5-3.jpeg"],
-"description":
-"Soft festive crystal earrings ,Lightweight and stylish."
-}
-
-
+    "id": 3,
+    "name": "Royal Jhumka Drop Earrings",
+    "price": 379,
+    "images": ["p3-1.jpeg", "p3-2.jpeg"],
+    "description": "Antique gold finish traditional jhumkas, perfect for weddings & festive wear."
+  },
+  {
+    "id": 4,
+    "name": "Celestial Clover Drops Earring",
+    "price": 159,
+    "images": ["p4-1.jpeg", "p4-2.jpeg", "p4-3.jpeg"],
+    "description": "Premium gold-toned clover design, lightweight and elegant."
+  },
+  {
+    "id": 5,
+    "name": "Crystal Blue Earring",
+    "price": 200,
+    "images": ["p5-1.jpeg", "p5-2.jpeg", "p5-3.jpeg"],
+    "description": "Soft festive crystal earrings, lightweight and stylish."
+  }
 ]
