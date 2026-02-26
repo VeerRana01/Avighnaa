@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product | Avighnaa</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+<a href="index.html">← Back</a>
+</div>
+
+<div class="product-details" id="product-details"></div>
+
+<script src="products.js"></script>
+<script src="cart.js"></script>
+
+<script>
+
+function getProduct(){
+
+let id = new URLSearchParams(window.location.search).get("id");
+let product = products.find(p => p.id == id);
+
+if(!product){
+document.getElementById("product-details").innerHTML = "<h2>Product not found</h2>";
+return;
+}
+
+let imagesHTML = "";
+product.images.forEach(img=>{
+imagesHTML += `<img src="${img}" class="product-img">`;
+});
+
+let html = `
+<h2>${product.name}</h2>
+${imagesHTML}
+<p>${product.description}</p>
+<h3>₹${product.price}</h3>
+
+<button onclick="addToCart(${product.id})">
+Add to Cart
+</button>
+
+<br><br>
+
+<a href="https://wa.me/919468199567?text=I want to order ${product.name}">
+<button>Order on WhatsApp</button>
+</a>
+`;
+
+document.getElementById("product-details").innerHTML = html;
+
+}
+
+getProduct();
+updateCartCount();
+
+</script>
+
+</body>
+</html>

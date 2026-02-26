@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Sunlit Chandrika Long Drops",
+    "price": 450,
+    "description": "Handcrafted elegance with radiant multicolour stones.",
+    "images": ["p1-1.jpeg"]
+  },
+  {
+    "id": 2,
+    "name": "Drop Earrings",
+    "price": 199,
+    "description": "Crystal studded drop earrings.",
+    "images": ["p2-1.jpeg"]
+  }
+]

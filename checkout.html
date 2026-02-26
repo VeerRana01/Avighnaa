@@ -1,0 +1,56 @@
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+<button onclick="payNow()">Pay Now</button>
+
+<script src="cart.js"></script>
+
+<script>
+
+function getTotal(){
+
+let cart = getCart();
+
+let total=0;
+
+cart.forEach(item=>{
+total += item.price * item.qty;
+});
+
+return total;
+}
+
+function payNow(){
+
+let total = getTotal();
+
+var options = {
+
+"key": "YOUR_RAZORPAY_KEY",
+
+"amount": total * 100,
+
+"currency": "INR",
+
+"name": "Avighnaa Jewellery",
+
+"description": "Order Payment",
+
+handler: function (){
+
+alert("Payment successful");
+
+localStorage.removeItem("cart");
+
+window.location.href="index.html";
+
+}
+
+};
+
+var rzp = new Razorpay(options);
+
+rzp.open();
+
+}
+
+</script>
