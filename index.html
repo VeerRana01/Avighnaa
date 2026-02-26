@@ -390,14 +390,13 @@ Add to Cart
 }
 
 
-/* Initialize */
+/* IMPORTANT FIX: load JSON first, then show products */
+
+loadProductsFromJSON(function(){
 
 loadProducts();
 updateCartCount();
 
+});
+
 </script>
-
-
-</body>
-</html>
-```
