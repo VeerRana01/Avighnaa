@@ -42,7 +42,7 @@
 "name":"Blue Crystal Bracelet",
 "price":280,
 "images":["p6-1.jpeg"],
-"video": "videos/p6-2.mp4"    
+"video": "videos/p6-2.mp4" ,   
 "description":"Blue crystals that sparkle like the night sky 💙✨\nA bracelet made to add charm to every outfit.\nOnly at Avighnaa."
 },
   {
@@ -50,7 +50,7 @@
 "name":"Soft Pink Blue Bracelet",
 "price":280,
 "images":["p7-1.jpeg"],
-"video": "videos/p7-2.mp4"
+"video": "videos/p7-2.mp4",
 "description":"Soft pink stones, pearls, and crystal sparkle 🌸✨\nA bracelet that adds grace to every look.\nBy Avighnaa."
 },
   {
