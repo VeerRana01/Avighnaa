@@ -55,17 +55,44 @@
 },
   {
 "id":8,
-"name":"Celestial Clover Drops Earring",
-"price":159,
-"images":["p4-1.jpeg","p4-2.jpeg","p4-3.jpeg"],
+"name":"Sea Sheeps Earring",
+"price":350,
+"images":["p8-1.jpeg","p8-2.jpeg","p8-3.jpeg"],
 "description":"Premium gold-toned clover design,Lightweight and elegant."
 },
   {
 "id":9,
-"name":"Celestial Clover Drops Earring",
-"price":159,
-"images":["p4-1.jpeg","p4-2.jpeg","p4-3.jpeg"],
+"name":"Butterfly Earring",
+"price":250,
+"images":["p9-1.jpeg"],
 "description":"Premium gold-toned clover design,Lightweight and elegant."
-}
-
+},
+ {
+"id":10,
+"name":"Silver Earring",
+"price":280,
+"images":["p10-1.jpeg"],
+"description":"Soft pink stones, pearls, and crystal sparkle 🌸✨\nA bracelet that adds grace to every look.\nBy Avighnaa."
+ },
+   {
+"id":11,
+"name":"Flower Booke Earring",
+"price":150,
+"images":["p11-1.jpeg","p11-2.jpeg","p11-3.jpeg","p11-4.jpeg"],
+"description":"Soft pink stones, pearls, and crystal sparkle 🌸✨\nA bracelet that adds grace to every look.\nBy Avighnaa."
+ },
+   {
+"id":12,
+"name":"Soft Pink Blue Bracelet",
+"price":280,
+"images":["p12-1.jpeg"],
+"description":"Soft pink stones, pearls, and crystal sparkle 🌸✨\nA bracelet that adds grace to every look.\nBy Avighnaa."
+ },
+  {
+"id":13,
+"name":"Flower Booke Earring",
+"price":150,
+"images":["p13-1.jpeg"],
+"description":"Soft pink stones, pearls, and crystal sparkle 🌸✨\nA bracelet that adds grace to every look.\nBy Avighnaa."
+ }
 ]
