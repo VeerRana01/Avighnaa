@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Product | Avighnaa</title>
+
 <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
 
 <div class="header">
@@ -33,19 +38,30 @@ return;
 
 }
 
+/* IMAGES */
+
 let imagesHTML = "";
 
 product.images.forEach(img=>{
-
 imagesHTML += `<img src="${img}" class="product-img">`;
-
 });
+
+/* MAIN HTML */
 
 let html = `
 
 <h2>${product.name}</h2>
 
+<div class="image-gallery">
 ${imagesHTML}
+</div>
+
+<!-- ✅ VIDEO (ONLY SHOWS IF EXISTS) -->
+${product.video ? `
+<video width="100%" controls style="margin-top:15px; border-radius:10px;">
+  <source src="${product.video}" type="video/mp4">
+</video>
+` : ""}
 
 <p>${product.description}</p>
 
@@ -68,7 +84,7 @@ document.getElementById("product-details").innerHTML = html;
 }
 
 
-/* IMPORTANT FIX */
+/* IMPORTANT FIX — LOAD JSON FIRST */
 
 loadProductsFromJSON(function(){
 
@@ -78,6 +94,9 @@ updateCartCount();
 });
 
 </script>
+
+</body>
+</html>
 
 </body>
 </html>
