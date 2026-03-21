@@ -8,7 +8,10 @@ public_folder: "/images/uploads"
 collections:
   - name: "products"
     label: "Products"
-    folder: "products"
+    files:
+  - label: "Products"
+    name: "products"
+    file: "products/products.json"
     create: true
     slug: "{{slug}}"
 
