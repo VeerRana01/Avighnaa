@@ -30,16 +30,12 @@ let id = new URLSearchParams(window.location.search).get("id");
 let product = products.find(p => p.id == id);
 
 if(!product){
-
 document.getElementById("product-details").innerHTML =
 "<h2>Product not found</h2>";
-
 return;
-
 }
 
 /* IMAGES */
-
 let imagesHTML = "";
 
 product.images.forEach(img=>{
@@ -47,7 +43,6 @@ imagesHTML += `<img src="${img}" class="product-img">`;
 });
 
 /* MAIN HTML */
-
 let html = `
 
 <h2>${product.name}</h2>
@@ -56,7 +51,6 @@ let html = `
 ${imagesHTML}
 </div>
 
-<!-- ✅ VIDEO (ONLY SHOWS IF EXISTS) -->
 ${product.video ? `
 <video width="100%" controls style="margin-top:15px; border-radius:10px;">
   <source src="${product.video}" type="video/mp4">
@@ -74,6 +68,14 @@ Add to Cart
 
 <br><br>
 
+<!-- ⭐ REVIEWS SECTION -->
+<div id="reviews"></div>
+
+<input type="text" id="reviewInput" placeholder="Write your review">
+<button onclick="addReview()">Submit</button>
+
+<br><br>
+
 <a href="https://wa.me/919468199567?text=I want to order ${product.name}">
 <button>Order on WhatsApp</button>
 </a>
@@ -85,12 +87,42 @@ document.getElementById("product-details").innerHTML = html;
 }
 
 
-/* IMPORTANT FIX — LOAD JSON FIRST */
+/* ⭐ REVIEW FUNCTIONS (OUTSIDE) */
+
+function addReview(){
+
+let review = document.getElementById("reviewInput").value;
+
+let reviews = JSON.parse(localStorage.getItem("reviews")) || [];
+
+reviews.push(review);
+
+localStorage.setItem("reviews", JSON.stringify(reviews));
+
+loadReviews();
+}
+
+function loadReviews(){
+
+let reviews = JSON.parse(localStorage.getItem("reviews")) || [];
+
+let html = "<h3>Customer Reviews</h3>";
+
+reviews.forEach(r=>{
+html += `<p>⭐ ${r}</p>`;
+});
+
+document.getElementById("reviews").innerHTML = html;
+}
+
+
+/* LOAD DATA */
 
 loadProductsFromJSON(function(){
 
 getProduct();
 updateCartCount();
+loadReviews();
 
 });
 
