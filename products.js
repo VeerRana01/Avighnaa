@@ -2,7 +2,7 @@ let products = [];
 
 function loadProductsFromJSON(callback){
 
-fetch("products/")
+fetch("products/products.json")
 .then(res => res.json())
 .then(data => {
 
