@@ -47,52 +47,52 @@
 },
   {
 "id":7,
-"name":"Soft Pink Blue Bracelet",
-"price":280,
+"name":"Floral Charm Bracelet",
+"price":250,
 "images":["p7-1.jpeg"],
 "video": "videos/p7-2.mp4",
-"description":"Soft pink stones, pearls, and crystal sparkle 🌸✨\nA bracelet that adds grace to every look.\nBy Avighnaa."
+"description":"Soft pink stones, pearls, and crystal sparkle 🌸✨\nA bracelet that adds grace to every look.\nBy Avighnaa\nAvighnaa Floral Charm Bracelet. Designed with delicate pastel beads and a beautifully crafted floral centerpiece, this bracelet brings together soft colors, sparkle, and timeless style.."
 },
   {
 "id":8,
-"name":"Sea Sheeps Earring",
+"name":"Bohemian / Statement Earrings",
 "price":350,
 "images":["p8-1.jpeg","p8-2.jpeg","p8-3.jpeg"],
-"description":"Premium gold-toned clover design,Lightweight and elegant."
+"description":"The circular woven design paired with soft pearl studs creates a statement piece that is lightweight, stylish, and perfect for everyday wear or special occasions.Whether you're styling a summer outfit, beach look, or festive attire, these earrings bring a natural, handcrafted aesthetic to your jewelry collection."
 },
   {
 "id":9,
 "name":"Butterfly Earring",
 "price":250,
 "images":["p9-1.jpeg"],
-"description":"Premium gold-toned clover design,Lightweight and elegant."
+"description":""
 },
  {
 "id":10,
 "name":"Silver Earring",
 "price":280,
 "images":["p10-1.jpeg"],
-"description":"Soft pink stones, pearls, and crystal sparkle 🌸✨\nA bracelet that adds grace to every look.\nBy Avighnaa."
+"description":""
  },
    {
 "id":11,
 "name":"Flower Booke Earring",
 "price":150,
 "images":["p11-1.jpeg","p11-2.jpeg","p11-3.jpeg","p11-4.jpeg"],
-"description":"Soft pink stones, pearls, and crystal sparkle 🌸✨\nA bracelet that adds grace to every look.\nBy Avighnaa."
+"description":""
  },
    {
 "id":12,
-"name":"Soft Pink Blue Bracelet",
+"name":"Crystal White Round Earrings",
 "price":280,
 "images":["p12-1.jpeg"],
-"description":"Soft pink stones, pearls, and crystal sparkle 🌸✨\nA bracelet that adds grace to every look.\nBy Avighnaa."
+"description":""
  },
   {
 "id":13,
-"name":"Flower Booke Earring",
+"name":"Beautifull V Shaped Earrings",
 "price":150,
 "images":["p13-1.jpeg"],
-"description":"Soft pink stones, pearls, and crystal sparkle 🌸✨\nA bracelet that adds grace to every look.\nBy Avighnaa."
+"description":""
  }
 ]
