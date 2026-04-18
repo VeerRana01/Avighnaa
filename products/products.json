@@ -95,4 +95,42 @@
 "images":["p13-1.jpeg"],
 "description":""
  }
+  {
+"id":14,
+"name":"Cherry lace scrunchie 🍒",
+"price":100,
+"images":["p14-1.jpeg"],
+"description":"Sweet like cherries, soft like clouds 🍒✨ \nHandmade scrunchie to add a cute touch to your everyday look"
+ },
+  {
+"id":15,
+"name":"double hoop earrings ✨",
+"price":180,
+"images":["p15-1.jpeg"],
+"description":"Timeless double hoop earrings ✨\n A perfect blend of elegance and modern charm \nAVIGHNAA – where style meets sophistication"
+ },
+ {
+"id":17,
+"name":"Butterfly Pendant Necklace 🦋",
+"price":120,
+"images":["p17-1.jpeg"],
+"video": ["p17-2.mp4","p17-3.mp4"],
+"description":"Butterfly Pendant Necklace 🦋\nA symbol of beauty and transformation.\nPerfect for daily wear & special moments"
+},
+  {
+"id":18,
+"name":"Anchor Necklace ⚓",
+"price":150,
+"images":["p18-1.jpeg","p18-3.jpeg"],
+"video": "p18-2.mp4",
+"description":"Anchor Necklace ⚓\nA symbol of strength, hope, and stability\nSimple elegance for everyday style"
+},
+  {
+"id":19,
+"name":"Crystal Evil Eye Pendant Necklace",
+"price":280,
+"images":["p19-1.jpeg","p19-3.jpeg","p19-4.jpeg"],
+"video": "p19-2.mp4",
+"description":"Crystal Evil Eye Pendant Necklace\nA beautifully crafted pendant featuring the iconic evil eye symbol, surrounded by sparkling stones. Designed to protect against negative energy while adding a stylish touch to any outfit.\n✨ Elegant design\n✨ Protective symbol\n✨ Perfect gift option"
+},
 ]
