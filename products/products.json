@@ -8,10 +8,10 @@
   },
   {
     "id": 2,
-    "name": "Drop Earrings",
-    "price": 199,
-    "description": "Crystal studded drop earrings.",
-    "images": ["p2-1.jpeg"]
+    "name": "Verdant vine cuff",
+    "price": 350,
+    "description": "Main character energy, wrapped around your arm. ✨🤍\nPremium finish\n✔️ Lightweight & comfortable/n✔️ Adjustable fit\n✔️ Perfect for parties, weddings & vacations\nMake every look unforgettable with Avighnaa.",
+    "images": ["p2-1.jpeg","p2-2.jpeg"]
   },
   {
 "id":3,
@@ -31,19 +31,18 @@
 
 {
 "id":5,
-"name":"Crystal Blue Earring",
-"price":200,
+"name":"Chandelier Earring,Geometric Jhumka",
+"price":100,
 "images":["p5-1.jpeg","p5-2.jpeg","p5-3.jpeg"],
 "description":
-"Soft festive crystal earrings ,Lightweight and stylish."
+"Elegant oxidized earrings crafted with intricate detailing and a premium finish. Lightweight, comfortable, and perfect for elevating your everyday, festive, or ethnic look."
 },
   {
 "id":6,
-"name":"Blue Crystal Bracelet",
-"price":280,
-"images":["p6-1.jpeg"],
-"video": "videos/p6-2.mp4" ,   
-"description":"Blue crystals that sparkle like the night sky 💙✨\nA bracelet made to add charm to every outfit.\nOnly at Avighnaa."
+"name":"Layered Pearl Pendant",
+"price":250,
+"images":["p6-1.jpeg"],  
+"description":"A timeless anti tarnish layered pendant designed to add effortless elegance to any outfit. Lightweight, stylish, and easy to pair with both western and ethnic wear."
 },
   {
 "id":7,
@@ -62,10 +61,10 @@
 },
   {
 "id":9,
-"name":"Butterfly Earring",
+"name":"Lock Key Layered Pendant",
 "price":250,
 "images":["p9-1.jpeg"],
-"description":""
+"description":"A statement in simplicity—crafted to add depth, shine, and sophistication to your look."
 },
  {
 "id":10,
@@ -90,10 +89,10 @@
  },
   {
 "id":13,
-"name":"Beautifull V Shaped Earrings",
-"price":150,
+"name":"Arrow Bold Pendant",
+"price":250,
 "images":["p13-1.jpeg"],
-"description":""
+"description":"Gracefully layered to make every look unforgettable. A timeless piece crafted for effortless elegance"
  },
   {
 "id":14,
@@ -109,13 +108,19 @@
 "images":["p15-1.jpeg"],
 "description":"Timeless double hoop earrings ✨\n A perfect blend of elegance and modern charm \nAVIGHNAA – where style meets sophistication"
  },
+  {
+"id":16,
+"name":"Bloom Earcuff",
+"price":200,
+"images":["p16-1.jpeg"],
+"description":"No piercing needed—just effortless style. A statement ear cuff crafted to elevate every look."
+ },
  {
 "id":17,
-"name":"Butterfly Pendant Necklace 🦋",
-"price":120,
+"name":"Avighnaa Waist Adornment🦋",
+"price":300,
 "images":["p17-1.jpeg"],
-"video": ["p17-2.mp4","p17-3.mp4"],
-"description":"Butterfly Pendant Necklace 🦋\nA symbol of beauty and transformation.\nPerfect for daily wear & special moments"
+"description":"A timeless waist chain designed to elevate your style with effortless elegance. Comfortable to wear and perfect for layering or making a subtle statement."
 },
   {
 "id":18,
@@ -132,5 +137,96 @@
 "images":["p19-1.jpeg","p19-3.jpeg","p19-4.jpeg"],
 "video": "p19-2.mp4",
 "description":"Crystal Evil Eye Pendant Necklace\nA beautifully crafted pendant featuring the iconic evil eye symbol, surrounded by sparkling stones. Designed to protect against negative energy while adding a stylish touch to any outfit.\n✨ Elegant design\n✨ Protective symbol\n✨ Perfect gift option"
-}
+},
+  {
+"id":20,
+"name":"Forever Heart Pendant",
+"price":200,
+"images":["p20-1.jpeg"],
+"description":"Premium-quality fashion jewelry designed for comfort, style, and everyday elegance. Lightweight, durable, and easy to pair with any outfit."
+ },
+  {
+"id":21,
+"name":"Evil Eye Pearl Pendant",
+"price":250,
+"images":["p21-1.jpeg"],
+"description":"Stack the vibes, not the effort. This layered Evil Eye pendant is your go-to piece for an effortlessly trendy look with a touch of positive energy."
+ },
+  {
+"id":22,
+"name":"Flower Bracelet",
+"price":280,
+"images":["p22-1.jpeg","p22-2.jpeg"],
+"description":""
+ },
+  {
+"id":23,
+"name":"Leaf Luck Bracelet",
+"price":300,
+"images":["p23-1.jpeg"],
+"description":"Crafted with a beautifully detailed leaf motif, this bracelet offers a timeless blend of sophistication and charm. Comfortable to wear and easy to style for every occasion."
+ },
+  {
+"id":24,
+"name":"Starfish Earrings",
+"price":100,
+"images":["p24-1.jpeg"],
+"description":"Inspired by the beauty of the ocean, these Starfish Earrings bring a fresh coastal charm to your jewelry collection. Lightweight, elegant, and perfect for adding a unique touch to any outfit."
+ },
+  {
+"id":25,
+"name":"Awesome Hoop",
+"price":100,
+"images":["p25-1.jpeg"],
+"description":"Elevate your jewelry collection with these premium anti-tarnish hoop earrings. Designed to retain their shine while offering all-day comfort and timeless appeal."
+ },
+  {
+"id":26,
+"name":"Snake Curl Ring",
+"price":100,
+"images":["p26-1.jpeg","p26-2.jpeg","p26-3.jpeg","p26-4.jpeg"],
+"description":""
+ },
+  {
+"id":27,
+"name":"Serpent Ring",
+"price":100,
+"images":["p27-1.jpeg"],
+"description":""
+ },
+  {
+"id":28,
+"name":"Forever Ring",
+"price":100,
+"images":["p28-1.jpeg"],
+"description":""
+ },
+   {
+"id":29,
+"name":"",
+"price":,
+"images":["p29-1.jpeg"],
+"description":""
+ },
+   {
+"id":30,
+"name":"",
+"price":,
+"images":["p30-1.jpeg","p30-2.jpeg"],
+"description":""
+ },
+   {
+"id":31,
+"name":"",
+"price":,
+"images":["p31-1.jpeg"],
+"description":""
+ },
+   {
+"id":32,
+"name":"",
+"price":,
+"images":["p32-1.jpeg"],
+"description":""
+ }
 ]
